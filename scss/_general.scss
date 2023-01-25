@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+body{
+    font-family:"Gi";
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+.site-main{
+    flex-grow: 1;
+}
